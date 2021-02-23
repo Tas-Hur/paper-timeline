@@ -1,0 +1,568 @@
+[
+	{
+		"id": "http://zotero.org/users/6428006/items/GG9KWJP5",
+		"type": "article-journal",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/366663.366704",
+		"ISSN": "00010782",
+		"issue": "7",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "396-408",
+		"source": "DOI.org (Crossref)",
+		"title": "Design of a separable transition-diagram compiler",
+		"URL": "http://portal.acm.org/citation.cfm?doid=366663.366704",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Conway",
+				"given": "Melvin E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1963",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/IMZJKE6J",
+		"type": "paper-conference",
+		"abstract": "Coroutines are non-preemptive lightweight processes. Their advantage over threads is that they do not have to be synchronized because they pass control to each other explicitly and deterministically. Coroutines are therefore an elegant and efﬁcient implementation construct for numerous algorithmic problems.",
+		"container-title": "Proceedings of the 8th International Conference on the Principles and Practice of Programming in Java - PPPJ '10",
+		"DOI": "10.1145/1852761.1852765",
+		"event": "the 8th International Conference",
+		"event-place": "Vienna, Austria",
+		"ISBN": "978-1-4503-0269-2",
+		"language": "en",
+		"page": "20",
+		"publisher": "ACM Press",
+		"publisher-place": "Vienna, Austria",
+		"source": "DOI.org (Crossref)",
+		"title": "Efficient coroutines for the Java platform",
+		"URL": "http://portal.acm.org/citation.cfm?doid=1852761.1852765",
+		"author": [
+			{
+				"family": "Stadler",
+				"given": "Lukas"
+			},
+			{
+				"family": "Würthinger",
+				"given": "Thomas"
+			},
+			{
+				"family": "Wimmer",
+				"given": "Christian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2010"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/NKKFJQX3",
+		"type": "paper-conference",
+		"abstract": "Continuations, or ’the rest of the computation’, are a concept that is most often used in the context of functional and dynamic programming languages. Implementations of such languages that work on top of the Java virtual machine (JVM) have traditionally been complicated by the lack of continuations because they must be simulated.",
+		"container-title": "Proceedings of the 7th International Conference on Principles and Practice of Programming in Java - PPPJ '09",
+		"DOI": "10.1145/1596655.1596679",
+		"event": "the 7th International Conference",
+		"event-place": "Calgary, Alberta, Canada",
+		"ISBN": "978-1-60558-598-7",
+		"language": "en",
+		"page": "143",
+		"publisher": "ACM Press",
+		"publisher-place": "Calgary, Alberta, Canada",
+		"source": "DOI.org (Crossref)",
+		"title": "Lazy continuations for Java virtual machines",
+		"URL": "http://portal.acm.org/citation.cfm?doid=1596655.1596679",
+		"author": [
+			{
+				"family": "Stadler",
+				"given": "Lukas"
+			},
+			{
+				"family": "Wimmer",
+				"given": "Christian"
+			},
+			{
+				"family": "Würthinger",
+				"given": "Thomas"
+			},
+			{
+				"family": "Mössenböck",
+				"given": "Hanspeter"
+			},
+			{
+				"family": "Rose",
+				"given": "John"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					3,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/PAGFLA8G",
+		"type": "thesis",
+		"abstract": "Coroutlnes, although known and dÍscussed for some years, are often\nregarded as glving rlse to poor program structure and fnefficlent\nprogran executlon, and are not wtdely avallable in programmlng\nlanguages. This thesls describes a top-down methodology for programmlng\nwiÈh coroutines, r¡hich ls based on the exLensLon of the notlon of\nhierarchical program st.ructure to cover programs contalnlng eoroutlnes.\nThe support and promotlon of thls methodology formed Part of the\nmotivation for the desfgn of a progranmtng language wlËh coroutlnes;\nthfs desLgn lras also motlvaÈed by a desire to experiment $tith the\nprovlslon of a coroutlne facility 1n the framework of a modern, general--\npurpose prograrnming language. Among the goals of the language design was\nthe encouragemenE of a close correspondence between the staEic, textual\natructure of a program wrlÈten ln the language, and lts structure aË\nrun-time.\nThe language with coroullnes, called ACL, , was designed uslng a\nnovel approach to language design whlch flrstly involves the dlvlsion of\nthe desLgn Èask Ínto Èhe deslgn of the semantÍcs of Ehe language'\nfollowed by the design of lts synÈax. The flrst of these Ls further\nsubdivlded lnto Ehree parts, one for each of three aspects of the\nlanguage betng deslgned: data structures, sequence conËrol and data\ncontrol. For each aspect, a semanElc rnodel was devl-sed which ls tailored\nboth to the aspect, and Èo the needs of this partícular language deslgn.\nThese model-s (whtch vary 1n the extenÈ to which they can be described as\nfor¡nal) were used to compare this aspect of existlng language features'\nand to make slmilar comparisons among alternatlves belng considered for\nlncluslon ln thts aspect of ACL; these comparlsons were very rnuch\nfacllltated by the models, with both slnl-larities and differences being\nnade clear. In thls way, descrlptions of the senantl-cs of each of the\nthree apsects of ACL were obtained; these stere then glven a syntactlc\nform 1n the Pascal ld1om.\nof\nThe programnlng language ACL has been lmplemented, and some aspects\nthis lmplementatlon are also brlefly discussed.",
+		"title": "Coroutines : a programming methodology, a language design, and an implementation",
+		"author": [
+			{
+				"family": "Marlin",
+				"given": "Christopher David"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/VRCRU8U9",
+		"type": "article-journal",
+		"abstract": "This paper defends the revival of coroutines as a general control abstraction. After proposing a new classiﬁcation of coroutines, we introduce the concept of full asymmetric coroutines and provide a precise deﬁnition for it through an operational semantics. We then demonstrate that full coroutines have an expressive power equivalent to one-shot continuations and oneshot partial continuations. We also show that full asymmetric coroutines and one-shot partial continuations have many similarities, and therefore present comparable beneﬁts. Nevertheless, coroutines are easier implemented and understood, specially in the realm of procedural languages. Finally, we provide a collection of programming examples that illustrate the use of full asymmetric coroutines to support direct and concise implementations of several useful control behaviors, including cooperative multitasking.",
+		"container-title": "ACM Transactions on Programming Languages and Systems",
+		"DOI": "10.1145/1462166.1462167",
+		"ISSN": "0164-0925, 1558-4593",
+		"issue": "2",
+		"journalAbbreviation": "ACM Trans. Program. Lang. Syst.",
+		"language": "en",
+		"page": "1-31",
+		"source": "DOI.org (Crossref)",
+		"title": "Revisiting coroutines",
+		"URL": "https://dl.acm.org/doi/10.1145/1462166.1462167",
+		"volume": "31",
+		"author": [
+			{
+				"family": "Moura",
+				"given": "Ana Lúcia De"
+			},
+			{
+				"family": "Ierusalimschy",
+				"given": "Roberto"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2004"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/2UWS59QI",
+		"type": "article-journal",
+		"abstract": "This article advocates the revival of coroutines as a convenient general control abstraction. After\nproposing a new classification of coroutines, we introduce the concept of full asymmetric coroutines\nand provide a precise definition for it through an operational semantics. We then demonstrate\nthat full coroutines have an expressive power equivalent to one-shot continuations and one-shot\ndelimited continuations. We also show that full asymmetric coroutines and one-shot delimited\ncontinuations have many similarities, and therefore present comparable benefits. Nevertheless,\ncoroutines are easier implemented and understood, especially in the realm of procedural languages.",
+		"container-title": "ACM Transactions on Programming Languages and Systems",
+		"DOI": "10.1145/1462166.1462167",
+		"ISSN": "0164-0925, 1558-4593",
+		"issue": "2",
+		"journalAbbreviation": "ACM Trans. Program. Lang. Syst.",
+		"language": "en",
+		"page": "1-31",
+		"source": "DOI.org (Crossref)",
+		"title": "Revisiting coroutines",
+		"URL": "https://dl.acm.org/doi/10.1145/1462166.1462167",
+		"volume": "31",
+		"author": [
+			{
+				"family": "Moura",
+				"given": "Ana Lúcia De"
+			},
+			{
+				"family": "Ierusalimschy",
+				"given": "Roberto"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					4,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/BXYSIDGN",
+		"type": "book",
+		"call-number": "QA76.73.J38 L4 2000",
+		"collection-title": "The Java series",
+		"edition": "2nd ed",
+		"event-place": "Reading, Mass",
+		"ISBN": "978-0-201-31009-2",
+		"language": "en",
+		"number-of-pages": "411",
+		"publisher": "Addison-Wesley",
+		"publisher-place": "Reading, Mass",
+		"source": "Library of Congress ISBN",
+		"title": "Concurrent programming in Java: design principles and patterns",
+		"title-short": "Concurrent programming in Java",
+		"author": [
+			{
+				"family": "Lea",
+				"given": "Douglas"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/ACGKASEM",
+		"type": "article-journal",
+		"abstract": "This paper studies the problem of efficiently schedulling fully strict (i.e., well-structured) multithreaded computations on parallel computers. A popular and practical method of scheduling this kind of dynamic MIMD-style computation is “work stealing,” in which processors needing work steal computational threads from other processors. In this paper, we give the first provably good work-stealing scheduler for multithreaded computations with dependencies. Specifically, our analysis shows that the expected time to execute a fully strict computation on P processors using our work-stealing scheduler is T1/P + O(T ∞ , where T1 is the minimum serial execution time of the multithreaded computation and (T ∞ is the minimum execution time with an infinite number of processors. Moreover, the space required by the execution is at most S1P, where S1 is the minimum serial space requirement. We also show that the expected total communication of the algorithm is at most O(PT ∞( 1 + nd)Smax), where Smax is the size of the largest activation record of any thread and nd is the maximum number of times that any thread synchronizes with its parent. This communication bound justifies the folk wisdom that work-stealing schedulers are more communication efficient than their work-sharing counterparts. All three of these bounds are existentially optimal to within a constant factor.",
+		"container-title": "Journal of the ACM",
+		"DOI": "10.1145/324133.324234",
+		"ISSN": "0004-5411",
+		"issue": "5",
+		"journalAbbreviation": "J. ACM",
+		"page": "720–748",
+		"source": "Sept. 1999",
+		"title": "Scheduling multithreaded computations by work stealing",
+		"URL": "https://doi.org/10.1145/324133.324234",
+		"volume": "46",
+		"author": [
+			{
+				"family": "Blumofe",
+				"given": "Robert D."
+			},
+			{
+				"family": "Leiserson",
+				"given": "Charles E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1999",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/RRXFX63T",
+		"type": "article-journal",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/362929.362947",
+		"ISSN": "00010782",
+		"issue": "3",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "147-148",
+		"source": "DOI.org (Crossref)",
+		"title": "Letters to the editor: go to statement considered harmful",
+		"title-short": "Letters to the editor",
+		"URL": "http://portal.acm.org/citation.cfm?doid=362929.362947",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Dijkstra",
+				"given": "Edsger W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1968",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/8I69292I",
+		"type": "webpage",
+		"abstract": "Organisations working in disparate domains are independently discovering patterns for building software that look the same. These systems are more robust, more resilient, more flexible and better positioned to meet modern demands.\n\nThese changes are happening because application requirements have changed dramatically in recent years. Only a few years ago a large application had tens of servers, seconds of response time, hours of offline maintenance and gigabytes of data. Today applications are deployed on everything from mobile devices to cloud-based clusters running thousands of multi-core processors. Users expect millisecond response times and 100% uptime. Data is measured in Petabytes. Today's demands are simply not met by yesterday’s software architectures.\n\nWe believe that a coherent approach to systems architecture is needed, and we believe that all necessary aspects are already recognised individually: we want systems that are Responsive, Resilient, Elastic and Message Driven. We call these Reactive Systems.\n\nSystems built as Reactive Systems are more flexible, loosely-coupled and scalable. This makes them easier to develop and amenable to change. They are significantly more tolerant of failure and when failure does occur they meet it with elegance rather than disaster. Reactive Systems are highly responsive, giving users effective interactive feedback.",
+		"container-title": "Reactive Manifesto",
+		"language": "en",
+		"title": "The Reactive Manifesto v2.0",
+		"URL": "https://www.reactivemanifesto.org/",
+		"author": [
+			{
+				"family": "Bonér",
+				"given": "Jonas"
+			},
+			{
+				"family": "Farley",
+				"given": "Dave"
+			},
+			{
+				"family": "Kuhn",
+				"given": "Roland"
+			},
+			{
+				"family": "Thompson",
+				"given": "Martin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					9,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/2E6ICIKE",
+		"type": "webpage",
+		"abstract": "Web and mobile applications are increasingly composed of asynchronous and realtime streaming services and push notifications.",
+		"container-title": "ACM Queue",
+		"title": "Your Mouse is a Database - ACM Queue",
+		"title-short": "Your Mouse is a Database",
+		"URL": "https://queue.acm.org/detail.cfm?id=2169076",
+		"author": [
+			{
+				"family": "Meijer",
+				"given": "Erik"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					3,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/U5A5LVBC",
+		"type": "paper-conference",
+		"abstract": "Functional programming FP is regularly touted as the way forward for bringing parallel, concurrent, and distributed programming to the mainstream. The popularity of the rationale behind this viewpoint has even led to a number of object-oriented OO programming languages outside the Smalltalk tradition adopting functional features such as lambdas and thereby function closures. However, despite this established viewpoint of FP as an enabler, reliably distributing function closures over a network, or using them in concurrent environments nonetheless remains a challenge across FP and OO languages. This paper takes a step towards more principled distributed and concurrent programming by introducing a new closure-like abstraction and type system, called spores, that can guarantee closures to be serializable, thread-safe, or even have custom user-defined properties. Crucially, our system is based on the principle of encoding type information corresponding to captured variables in the type of a spore. We prove our type system sound, implement our approach for Scala, evaluate its practicality through a small empirical study, and show the power of these guarantees through a case analysis of real-world distributed and concurrent frameworks that this safe foundation for closures facilitates.",
+		"container-title": "Proceedings of the 28th European Conference on ECOOP 2014 --- Object-Oriented Programming - Volume 8586",
+		"DOI": "10.1007/978-3-662-44202-9_13",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-662-44201-2",
+		"page": "308–333",
+		"publisher": "Springer-Verlag",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "ACM Digital Library",
+		"title": "Spores: A Type-Based Foundation for Closures in the Age of Concurrency and Distribution",
+		"title-short": "Spores",
+		"URL": "https://doi.org/10.1007/978-3-662-44202-9_13",
+		"author": [
+			{
+				"family": "Miller",
+				"given": "Heather"
+			},
+			{
+				"family": "Haller",
+				"given": "Philipp"
+			},
+			{
+				"family": "Odersky",
+				"given": "Martin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					7,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/QM2JDFPQ",
+		"type": "article-journal",
+		"abstract": "In the first part of the paper, flow diagrams are introduced to represent inter ah mappings of a set into itself. Although not every diagram is decomposable into a finite numbm of given base diagrams, this becomes hue at a semantical level due to a suitable extension of the given set and of the basic mappings defined in it. Two normalization methods of flow diagrams are given. The first has |hree base diagrams; the second, only two. In the second part of the paper, the second method is ap- plied to 'lhe theory of Turing machines. With every Turing maching provided with a two-way half-tape, ihere is associ- ated a similar machine, doing essentially 'lhe same job, but working on a tape obtained from the first one by interspersing alternate blank squares. The new machine belongs to the family, elsewhere introduced, generated by composition and iteration from the two machines X and R. That family is a proper subfamily of the whole family of Turing machines.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/355592.365646",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "5",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "366-371",
+		"source": "DOI.org (Crossref)",
+		"title": "Flow diagrams, turing machines and languages with only two formation rules",
+		"URL": "https://dl.acm.org/doi/10.1145/355592.365646",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Böhm",
+				"given": "Corrado"
+			},
+			{
+				"family": "Jacopini",
+				"given": "Giuseppe"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1966",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/6428006/items/XGQFPGCG",
+		"type": "article-journal",
+		"abstract": "During the software crisis of the 1960s, Dijkstra’s famous thesis“goto considered harmful”pavedthe way for structured programming. This short communication suggests that many current diffi-culties of parallel programming based on message passing are caused by poorly structured commu-nication, which is a consequence of using low-levelsend-receiveprimitives. We argue that, likegotoin sequential programs,send-receiveshould be avoided as far as possible and replaced bycollec-tive operationsin the setting of message passing. We dispute some widely held opinions about theapparent superiority of pairwise communication over collective communication and present sub-stantial theoretical and empirical evidence to the contrary in the context of MPI (Message PassingInterface).",
+		"container-title": "ACM Transactions on Programming Languages and Systems",
+		"DOI": "10.1145/963778.963780",
+		"ISSN": "0164-0925, 1558-4593",
+		"issue": "1",
+		"journalAbbreviation": "ACM Trans. Program. Lang. Syst.",
+		"language": "en",
+		"page": "47-56",
+		"source": "DOI.org (Crossref)",
+		"title": "Send-receive considered harmful: Myths and realities of message passing",
+		"title-short": "Send-receive considered harmful",
+		"URL": "https://dl.acm.org/doi/10.1145/963778.963780",
+		"volume": "26",
+		"author": [
+			{
+				"family": "Gorlatch",
+				"given": "Sergei"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					2,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2004",
+					1
+				]
+			]
+		}
+	}
+]
